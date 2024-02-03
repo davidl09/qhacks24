@@ -1,0 +1,124 @@
+/* screen - my-account */
+
+.my-account {
+  align-items: center;
+  background-color: var(--gallery);
+  display: flex;
+  flex-direction: column;
+  height: 832px;
+  padding: 23px 45px;
+  width: 1280px;
+}
+
+.my-account .kev-invest {
+  color: var(--big-stone);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxxxl);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 79px;
+  text-align: center;
+  width: 362px;
+}
+
+.my-account .title {
+  color: var(--big-stone);
+  font-family: var(--font-family-inter);
+  font-size: 70px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 1.0px;
+  min-height: 105px;
+  text-align: center;
+  width: 801px;
+}
+
+.my-account .overlap-group-container {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  height: 477px;
+  margin-top: 32px;
+  min-width: 1189px;
+}
+
+.my-account .overlap-group2 {
+  align-items: flex-end;
+  gap: 61px;
+  padding: 52px 40px;
+}
+
+.my-account .object-other-12 {
+  background-image: url(../img/object-other-12@2x.png);
+  height: 268px;
+  width: 276px;
+}
+
+.my-account .personal-information {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 29px;
+  min-width: 245px;
+}
+
+.my-account .overlap-group1 {
+  align-items: flex-start;
+  gap: 62px;
+  margin-left: 63px;
+  padding: 52px 45px;
+}
+
+.my-account .object-other-01 {
+  background-image: url(../img/object-other-01@2x.png);
+  height: 267px;
+  width: 259px;
+}
+
+.my-account .financial-overview {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 7.0px;
+  min-height: 29px;
+  min-width: 224px;
+}
+
+.my-account .overlap-group {
+  align-items: center;
+  gap: 30px;
+  margin-left: 55px;
+  padding: 36px 0;
+}
+
+.my-account .character-ikbal-4 {
+  background-image: url(../img/character-ikbal-4.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 330px;
+  width: 259px;
+}
+
+.my-account .kevins-overview {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 29px;
+  min-width: 201px;
+}
+
+.my-account .object-other {
+  background-position: 50% 50%;
+  background-size: cover;
+  margin-top: 15px;
+}
+
+.my-account .overlap {
+  background-color: var(--big-stone);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 477px;
+  width: 357px;
+}

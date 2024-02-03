@@ -1,0 +1,161 @@
+/* screen - kevin-quiz */
+
+.kevin-quiz {
+  align-items: flex-start;
+  background-color: var(--gallery);
+  display: flex;
+  height: 832px;
+  overflow: hidden;
+  width: 1280px;
+}
+
+.kevin-quiz .overlap-group1 {
+  margin-left: -240px;
+  position: relative;
+}
+
+.kevin-quiz .overlap-group {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.kevin-quiz .rectangle-36 {
+  background-color: var(--big-stone);
+  height: 846px;
+  left: 589px;
+  position: absolute;
+  top: 0;
+  width: 2220px;
+}
+
+.kevin-quiz .help-kevin-get-to-know-you-better {
+  color: var(--big-stone);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  left: 277px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 157px;
+  width: 256px;
+}
+
+.kevin-quiz .rectangle-15 {
+  background-color: var(--ffffff-3-paints);
+  border-radius: 15px;
+  height: 52px;
+  left: 762px;
+  position: absolute;
+  top: 740px;
+  width: 607px;
+}
+
+.kevin-quiz .ellipse-7 {
+  background-color: #aec8e8;
+  left: 1328px;
+  top: 751px;
+}
+
+.kevin-quiz .arrow-3 {
+  height: 17px;
+  left: 1336px;
+  position: absolute;
+  top: 757px;
+  width: 15px;
+}
+
+.kevin-quiz .type-your-response {
+  background-color: transparent;
+  border: 0;
+  color: var(--black);
+  font-family: var(--font-family-inter-thinitalic);
+  font-size: var(--font-size-xl);
+  font-style: italic;
+  font-weight: 100;
+  height: 26px;
+  left: 779px;
+  letter-spacing: -0.12px;
+  line-height: 31.2px;
+  padding: 0;
+  position: absolute;
+  top: 748px;
+  white-space: nowrap;
+  width: 442px;
+}
+
+.kevin-quiz .type-your-response::placeholder {
+  color: #00000099;
+}
+
+.kevin-quiz .title {
+  color: var(--big-stone);
+  font-family: var(--font-family-inter);
+  font-size: 55px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 82px;
+  width: 819px;
+}
+
+.kevin-quiz .text {
+  color: var(--ffffff-3-paints);
+  font-family: var(--font-family-inter-light);
+  font-size: var(--font-size-m);
+  font-weight: 300;
+  left: 762px;
+  letter-spacing: -0.10px;
+  line-height: 25px;
+  position: absolute;
+  top: 116px;
+  width: 561px;
+}
+
+.kevin-quiz .ellipse-11 {
+  background-color: var(--alto);
+  left: 722px;
+  top: 117px;
+}
+
+.kevin-quiz .k {
+  color: var(--big-stone);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  left: 730px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 119px;
+  white-space: nowrap;
+}
+
+.kevin-quiz .character-ikbal-4 {
+  background-image: url(../img/character-ikbal-4.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 424px;
+  left: 261px;
+  position: absolute;
+  top: 316px;
+  width: 289px;
+}
+
+.kevin-quiz .ellipse {
+  border-radius: 15px;
+  height: 30px;
+  position: absolute;
+  width: 30px;
+}
+
+.kevin-quiz .overlap {
+  height: 846px;
+  width: 2809px;
+}

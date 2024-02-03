@@ -1,0 +1,187 @@
+/* screen - kevin */
+
+.kevin {
+  align-items: flex-start;
+  background-color: var(--gallery);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  height: 832px;
+  overflow: hidden;
+  padding: 22px 0;
+  width: 1280px;
+}
+
+.kevin .title {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 78px;
+  text-align: center;
+  width: 346px;
+}
+
+.kevin .overlap-group {
+  height: 658px;
+  margin-left: -21px;
+  position: relative;
+  width: 1260px;
+}
+
+.kevin .character-ikbal-4 {
+  align-items: flex-start;
+  background-image: url(../img/character-ikbal-4.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 493px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 425px;
+  position: absolute;
+  top: 57px;
+}
+
+.kevin .frame-3 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  height: 139px;
+  justify-content: center;
+  margin-top: -56px;
+  position: relative;
+  width: 71px;
+}
+
+.kevin .rectangle-2 {
+  background-color: var(--fiord);
+  border: 0.81px solid;
+  border-radius: 51.72px 0px 0px 0px;
+  height: 31.25px;
+  margin-right: -1.40px;
+  margin-top: -1.40px;
+  position: relative;
+  width: 22.46px;
+}
+
+.kevin .rectangle-1 {
+  background-color: var(--fiord);
+  border: 0.81px solid;
+  flex: 1;
+  flex-grow: 1;
+  margin-right: -1.40px;
+  position: relative;
+  width: 22.46px;
+}
+
+.kevin .union {
+  height: 29.25px;
+  margin-bottom: -0.40px;
+  margin-right: -0.40px;
+  position: relative;
+  width: 29.72px;
+}
+
+.kevin .rectangle-1-1 {
+  background-color: var(--fiord);
+  border: 0.81px solid;
+  height: 91px;
+  left: 1235px;
+  position: absolute;
+  top: 23px;
+  transform: rotate(180deg);
+  width: 26px;
+}
+
+.kevin .rectangle-3 {
+  background-color: var(--fiord);
+  border: 0.81px solid;
+  border-radius: 51.72px 0px 0px 0px;
+  height: 43px;
+  left: 1234px;
+  position: absolute;
+  top: 99px;
+  transform: rotate(180deg);
+  width: 27px;
+}
+
+.kevin .rectangle-4 {
+  background-color: var(--fiord);
+  border: 0.81px solid;
+  border-radius: 51.72px 0px 0px 0px;
+  height: 29px;
+  left: 1229px;
+  position: absolute;
+  top: 0;
+  transform: rotate(180deg);
+  width: 32px;
+}
+
+.kevin .frame-1 {
+  align-items: center;
+  background-color: var(--fiord);
+  border: 0.81px solid;
+  display: flex;
+  gap: 5.17px;
+  height: 142px;
+  left: 424px;
+  padding: 14.51px 0px;
+  position: absolute;
+  top: 0;
+  width: 814px;
+}
+
+.kevin .text {
+  color: var(--ffffff-3-paints);
+  flex: 1;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 300;
+  letter-spacing: -0.12px;
+  line-height: 31.2px;
+  margin-left: -0.40px;
+  position: relative;
+  text-align: center;
+}
+
+.kevin .rectangle-14 {
+  background-color: var(--ffffff-3-paints);
+  border-radius: 15px;
+  height: 142px;
+  left: 410px;
+  position: absolute;
+  top: 516px;
+  width: 849px;
+}
+
+.kevin .ellipse-6 {
+  background-color: #aec8e8;
+  border-radius: 16px;
+  height: 32px;
+  left: 1199px;
+  position: absolute;
+  top: 606px;
+  width: 32px;
+}
+
+.kevin .arrow-2 {
+  height: 20px;
+  left: 1208px;
+  position: absolute;
+  top: 612px;
+  width: 15px;
+}
+
+.kevin .type-any-questions-you-may-have {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: italic;
+  font-weight: 100;
+  left: 434px;
+  letter-spacing: -0.12px;
+  line-height: 31.2px;
+  position: absolute;
+  top: 535px;
+  width: 618px;
+}

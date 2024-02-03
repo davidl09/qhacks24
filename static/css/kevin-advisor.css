@@ -1,0 +1,148 @@
+/* screen - kevin-advisor */
+
+.kevin-advisor {
+  align-items: flex-start;
+  background-color: var(--gallery);
+  display: flex;
+  height: 832px;
+  overflow: hidden;
+  width: 1280px;
+}
+
+.kevin-advisor .overlap-group1 {
+  margin-left: -23px;
+  position: relative;
+}
+
+.kevin-advisor .overlap-group {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.kevin-advisor .rectangle-37 {
+  background-color: var(--big-stone);
+  height: 894px;
+  left: 385px;
+  position: absolute;
+  top: 0;
+  width: 1247px;
+}
+
+.kevin-advisor .character-ikbal-4 {
+  background-image: url(../img/character-ikbal-4.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 493px;
+  left: 0;
+  position: absolute;
+  top: 238px;
+  width: 425px;
+}
+
+.kevin-advisor .text {
+  color: var(--ffffff-3-paints);
+  font-family: var(--font-family-inter-light);
+  font-size: var(--font-size-xl);
+  font-weight: 300;
+  left: 483px;
+  letter-spacing: -0.12px;
+  line-height: 31.2px;
+  position: absolute;
+  top: 134px;
+  width: 763px;
+}
+
+.kevin-advisor .rectangle-14 {
+  background-color: var(--ffffff-3-paints);
+  border-radius: 15px;
+  height: 142px;
+  left: 425px;
+  position: absolute;
+  top: 660px;
+  width: 849px;
+}
+
+.kevin-advisor .ellipse-6 {
+  background-color: #aec8e8;
+  border-radius: 16px;
+  height: 32px;
+  left: 1214px;
+  position: absolute;
+  top: 750px;
+  width: 32px;
+}
+
+.kevin-advisor .arrow-2 {
+  height: 20px;
+  left: 1223px;
+  position: absolute;
+  top: 756px;
+  width: 15px;
+}
+
+.kevin-advisor .type-any-questions-you-may-have {
+  background-color: transparent;
+  border: 0;
+  color: var(--black);
+  font-family: var(--font-family-inter-thinitalic);
+  font-size: var(--font-size-xl);
+  font-style: italic;
+  font-weight: 100;
+  height: 70px;
+  left: 449px;
+  letter-spacing: -0.12px;
+  line-height: 31.2px;
+  padding: 0;
+  position: absolute;
+  top: 679px;
+  width: 618px;
+}
+
+.kevin-advisor .type-any-questions-you-may-have::placeholder {
+  color: #00000099;
+}
+
+.kevin-advisor .ellipse-11 {
+  background-color: var(--alto);
+  border-radius: 15px;
+  height: 30px;
+  left: 419px;
+  position: absolute;
+  top: 139px;
+  width: 30px;
+}
+
+.kevin-advisor .k {
+  color: var(--big-stone);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  left: 427px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 141px;
+  white-space: nowrap;
+}
+
+.kevin-advisor .title {
+  color: var(--big-stone);
+  font-family: var(--font-family-inter);
+  font-size: 60px;
+  font-weight: 700;
+  left: 39px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 114px;
+  width: 346px;
+}
+
+.kevin-advisor .overlap {
+  height: 894px;
+  width: 1632px;
+}
+

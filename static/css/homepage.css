@@ -1,0 +1,152 @@
+/* screen - homepage */
+
+.homepage {
+  align-items: center;
+  background-color: var(--gallery);
+  display: flex;
+  flex-direction: column;
+  height: 832px;
+  padding: 19px 29px;
+  width: 1280px;
+}
+
+.homepage .login {
+  align-self: flex-start;
+  color: var(--big-stone);
+  font-family: var(--font-family-inter-light);
+  font-size: var(--font-size-l);
+  font-weight: 300;
+  letter-spacing: -0.12px;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.homepage .flex-row {
+  align-items: center;
+  display: flex;
+  margin-top: 49px;
+  min-width: 906px;
+}
+
+.homepage .about {
+  letter-spacing: -0.18px;
+  line-height: 45px;
+  margin-bottom: 2.0px;
+  min-height: 54px;
+  text-align: center;
+  white-space: nowrap;
+  width: 149px;
+}
+
+.homepage .line-4 {
+  margin-left: 92px;
+}
+
+.homepage .name {
+  letter-spacing: -0.18px;
+  line-height: 45px;
+  margin-bottom: 2.0px;
+  margin-left: 111px;
+  min-height: 54px;
+  text-align: center;
+  white-space: nowrap;
+  width: 136px;
+}
+
+.homepage .line-5 {
+  margin-left: 123px;
+}
+
+.homepage .forecast {
+  letter-spacing: -0.18px;
+  line-height: 45px;
+  margin-bottom: 2.0px;
+  margin-left: 80px;
+  min-height: 54px;
+  text-align: center;
+  white-space: nowrap;
+  width: 213px;
+}
+
+.homepage .overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 68px;
+  height: 303px;
+  margin-right: 1.0px;
+  margin-top: 166px;
+  min-width: 979px;
+}
+
+.homepage .image-container {
+  align-self: flex-end;
+  height: 302px;
+  position: relative;
+  width: 299px;
+}
+
+.homepage .image-1 {
+  height: 299px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 3px;
+  width: 299px;
+}
+
+.homepage .image-2 {
+  height: 256px;
+  left: 22px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 256px;
+}
+
+.homepage .overlap-group1 {
+  height: 301px;
+  position: relative;
+  width: 612px;
+}
+
+.homepage .title {
+  color: transparent;
+  font-family: var(--font-family-inter);
+  font-size: 128px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: -0.64px;
+  line-height: 160px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 612px;
+}
+
+.homepage .span0 {
+  color: var(--fiord);
+}
+
+.homepage .span1 {
+  color: var(--big-stone);
+}
+
+.homepage .kev-invest-navigate {
+  color: var(--black);
+  font-family: var(--font-family-inter-lightitalic);
+  font-size: var(--font-size-xxxxl);
+  font-style: italic;
+  font-weight: 300;
+  left: 0;
+  letter-spacing: -0.18px;
+  line-height: 45px;
+  position: absolute;
+  top: 146px;
+  width: 612px;
+}
+
+.homepage .line {
+  height: 64px;
+  object-fit: cover;
+  width: 1px;
+}

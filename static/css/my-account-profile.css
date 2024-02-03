@@ -1,0 +1,100 @@
+/* screen - my-account-profile */
+
+.my-account-profile {
+  align-items: center;
+  background-color: var(--gallery);
+  display: flex;
+  flex-direction: column;
+  height: 832px;
+  padding: 97px 337px;
+  width: 1280px;
+}
+
+.my-account-profile .title {
+  align-self: flex-end;
+  color: var(--big-stone);
+  font-family: var(--font-family-inter);
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 79px;
+  text-align: center;
+  white-space: nowrap;
+  width: 604px;
+}
+
+.my-account-profile .overlap-group2 {
+  height: 66px;
+  justify-content: flex-end;
+  margin-top: 52px;
+  padding: 12px 179px;
+}
+
+.my-account-profile .personal-info {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 39px;
+  min-width: 205px;
+  text-align: center;
+}
+
+.my-account-profile .overlap-group4 {
+  height: 67px;
+  justify-content: flex-end;
+  margin-top: 43px;
+  padding: 13px 186px;
+}
+
+.my-account-profile .preferences {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 39px;
+  min-width: 191px;
+  text-align: center;
+}
+
+.my-account-profile .overlap-group3 {
+  height: 67px;
+  margin-top: 43px;
+  padding: 13px 216px;
+}
+
+.my-account-profile .security {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 39px;
+}
+
+.my-account-profile .overlap-group1 {
+  height: 66px;
+  margin-top: 43px;
+  padding: 12px 192px;
+}
+
+.my-account-profile .documents {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 39px;
+}
+
+.my-account-profile .overlap-group {
+  height: 66px;
+  justify-content: flex-end;
+  margin-top: 43px;
+  padding: 13px 205px;
+}
+
+.my-account-profile .feedback {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 39px;
+}
+
+.my-account-profile .overlap {
+  align-items: flex-start;
+  background-color: var(--alto);
+  border-radius: 20px;
+  display: flex;
+  min-width: 564px;
+}

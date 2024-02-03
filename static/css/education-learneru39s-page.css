@@ -1,0 +1,197 @@
+/* screen - education-learneru39s-page */
+
+.education-learneru39s-page {
+  align-items: center;
+  background-color: var(--gallery);
+  display: flex;
+  flex-direction: column;
+  height: 832px;
+  padding: 20px 0;
+  width: 1280px;
+}
+
+.education-learneru39s-page .overlap-group3 {
+  height: 141px;
+  margin-left: 1.0px;
+  position: relative;
+  width: 819px;
+}
+
+.education-learneru39s-page .help-kevin-get-to-know-you-better {
+  left: 152px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 89px;
+  width: 514px;
+}
+
+.education-learneru39s-page .title {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 819px;
+}
+
+.education-learneru39s-page .flex-row {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  gap: 48px;
+  height: 513px;
+  margin-top: 12px;
+  min-width: 942px;
+}
+
+.education-learneru39s-page .character-ikbal-4 {
+  align-self: flex-end;
+  background-image: url(../img/character-ikbal-4.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 424px;
+  width: 289px;
+}
+
+.education-learneru39s-page .overlap-group1 {
+  height: 104px;
+  position: relative;
+  width: 605px;
+}
+
+.education-learneru39s-page .rectangle-16 {
+  border-radius: 51.72px 0px 0px 0px;
+  height: 31px;
+  left: 8px;
+  top: 0;
+  width: 22px;
+}
+
+.education-learneru39s-page .rectangle-17 {
+  height: 47px;
+  left: 8px;
+  top: 28px;
+  width: 22px;
+}
+
+.education-learneru39s-page .union {
+  height: 29px;
+  left: 0;
+  position: absolute;
+  top: 74px;
+  width: 30px;
+}
+
+.education-learneru39s-page .overlap-group {
+  height: 104px;
+  left: 584px;
+  position: absolute;
+  top: 0;
+  width: 23px;
+}
+
+.education-learneru39s-page .rectangle-18 {
+  height: 67px;
+  left: 4px;
+  top: 17px;
+  transform: rotate(180deg);
+  width: 19px;
+}
+
+.education-learneru39s-page .rectangle-19 {
+  border-radius: 51.72px 0px 0px 0px;
+  height: 32px;
+  left: 3px;
+  top: 72px;
+  transform: rotate(180deg);
+  width: 20px;
+}
+
+.education-learneru39s-page .rectangle-20 {
+  border-radius: 51.72px 0px 0px 0px;
+  height: 22px;
+  left: 0;
+  top: 0;
+  transform: rotate(180deg);
+  width: 23px;
+}
+
+.education-learneru39s-page .frame {
+  align-items: center;
+  background-color: var(--fiord);
+  border: 0.81px solid;
+  display: flex;
+  gap: 5.17px;
+  height: 104px;
+  left: 28px;
+  padding: 14.51px 0px;
+  position: absolute;
+  top: 0;
+  width: 564px;
+}
+
+.education-learneru39s-page .text {
+  color: var(--ffffff-3-paints);
+  flex: 1;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xs);
+  font-weight: 300;
+  letter-spacing: -0.10px;
+  line-height: 25px;
+  margin-left: -0.40px;
+  margin-top: -2.31px;
+  position: relative;
+  text-align: center;
+}
+
+.education-learneru39s-page .overlap-group2 {
+  align-items: flex-start;
+  background-color: var(--ffffff-3-paints);
+  border-radius: 15px;
+  display: flex;
+  gap: 107px;
+  height: 52px;
+  justify-content: flex-end;
+  margin-left: 1.0px;
+  margin-top: 50px;
+  min-width: 607px;
+  padding: 8px 11px;
+}
+
+.education-learneru39s-page .type-your-response {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: italic;
+  font-weight: 100;
+  letter-spacing: -0.12px;
+  line-height: 31.2px;
+  min-height: 26px;
+  white-space: nowrap;
+  width: 442px;
+}
+
+.education-learneru39s-page .overlap-group4 {
+  align-items: flex-start;
+  align-self: center;
+  background-color: #aec8e8;
+  border-radius: 15px;
+  display: flex;
+  height: 30px;
+  justify-content: flex-end;
+  min-width: 30px;
+  padding: 6px 7.6px;
+}
+
+.education-learneru39s-page .arrow-3 {
+  height: 17px;
+  width: 15px;
+}
+
+.education-learneru39s-page .rectangle {
+  background-color: var(--fiord);
+  border: 0.81px solid;
+  position: absolute;
+}

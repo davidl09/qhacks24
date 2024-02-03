@@ -37,7 +37,7 @@ class NewsApiScraper:
 
         return result
 
-    def get_sentiment_articles(self, ticker_symbol: str) -> [float]:
+    async def get_sentiment_articles(self, ticker_symbol: str) -> [float]:
         articles = self.get_articles(ticker_symbol)
         sentiments = {"neg": [], "neu": [], "pos": [], "com": []}
         for article in articles:

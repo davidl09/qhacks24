@@ -2,7 +2,7 @@
 
 .dashboard {
   align-items: flex-start;
-  background-color: #f0f0ee;
+  background-color: var(--gallery);
   display: flex;
   flex-direction: column;
   gap: 1px;
@@ -40,7 +40,7 @@
 .dashboard .title {
   color: var(--big-stone);
   font-family: var(--font-family-inter);
-  font-size: var(--font-size-xl);
+  font-size: 60px;
   font-weight: 700;
   letter-spacing: 0;
   line-height: normal;
@@ -74,6 +74,10 @@
 .dashboard .what-are-you-in-the-mood-for {
   background-color: transparent;
   border: 0;
+  color: var(--ffffff-3-paints);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-weight: 400;
   height: 62px;
   left: 51px;
   letter-spacing: 0;
@@ -148,7 +152,7 @@
 .dashboard .surname {
   color: var(--big-stone);
   font-family: var(--font-family-inter);
-  font-size: var(--font-size-m);
+  font-size: var(--font-size-xxl);
   font-weight: 700;
   left: 830px;
   letter-spacing: 0;
@@ -162,7 +166,7 @@
 .dashboard .text {
   color: var(--big-stone);
   font-family: var(--font-family-inter);
-  font-size: var(--font-size-m);
+  font-size: var(--font-size-xxl);
   font-weight: 700;
   left: 595px;
   position: absolute;
@@ -189,7 +193,7 @@
 .dashboard .todays-biggest-feelings {
   color: var(--big-stone);
   font-family: var(--font-family-inter);
-  font-size: var(--font-size-l);
+  font-size: 50px;
   font-weight: 700;
   letter-spacing: 0;
   line-height: normal;
@@ -256,7 +260,7 @@
 .dashboard .recommendations {
   color: var(--big-stone);
   font-family: var(--font-family-inter);
-  font-size: var(--font-size-l);
+  font-size: 50px;
   font-weight: 700;
   letter-spacing: 0;
   line-height: normal;
@@ -274,8 +278,7 @@
 
 .dashboard .flex-col-3 {
   align-items: flex-start;
-  gap: 49px;
-  min-height: 470px;
+  min-height: 473px;
   width: 772px;
 }
 
@@ -290,6 +293,7 @@
   background-color: var(--fiord);
   border-radius: 20px;
   height: 124px;
+  margin-top: 52px;
   width: 772px;
 }
 
@@ -297,6 +301,7 @@
   background-color: var(--big-stone);
   border-radius: 20px;
   height: 124px;
+  margin-top: 49px;
   width: 772px;
 }
 
