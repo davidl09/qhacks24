@@ -4,4 +4,7 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 nltk.download('vader_lexicon')
 
 analyser = SentimentIntensityAnalyzer()
-print(analyser.polarity_scores(""))
+
+
+if __name__ == "__main__":
+    print(analyser.polarity_scores(""))
