@@ -1,0 +1,199 @@
+/* screen - education-login-page */
+
+.education-login-page {
+  align-items: flex-start;
+  background-color: #f0f0ee;
+  display: flex;
+  height: 832px;
+  padding: 181px 209px;
+  width: 1280px;
+}
+
+.education-login-page .overlap-group1 {
+  align-items: center;
+  background-image: url(../img/rectangle-1.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 469px;
+  padding: 26px 17px;
+  width: 431px;
+}
+
+.education-login-page .title {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 92px;
+  min-height: 37px;
+  width: 307px;
+}
+
+.education-login-page .sign-in {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 62.0px;
+  margin-top: 8px;
+  min-height: 40px;
+  width: 245px;
+}
+
+.education-login-page .username {
+  align-self: flex-start;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 46px;
+  margin-top: 8px;
+  min-height: 23px;
+  width: 116px;
+}
+
+.education-login-page .rectangle-4 {
+  background-color: var(--ffffff-3-paints);
+  border-radius: 10px;
+  height: 33px;
+  margin-right: 41.0px;
+  margin-top: 9px;
+  width: 264px;
+}
+
+.education-login-page .password {
+  align-self: flex-start;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 45px;
+  margin-top: 7px;
+  min-height: 16px;
+  white-space: nowrap;
+}
+
+.education-login-page .rectangle-3 {
+  background-color: var(--ffffff-3-paints);
+  border-radius: 10px;
+  height: 33px;
+  margin-right: 43.0px;
+  margin-top: 9px;
+  width: 264px;
+}
+
+.education-login-page .overlap-group2 {
+  align-self: flex-end;
+  height: 45px;
+  margin-top: 57px;
+  position: relative;
+  width: 146px;
+}
+
+.education-login-page .rectangle-7 {
+  background-color: var(--fiord);
+  border-radius: 30px;
+  height: 45px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 142px;
+}
+
+.education-login-page .login {
+  left: 42px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 10px;
+  white-space: nowrap;
+  width: 104px;
+}
+
+.education-login-page .overlap-group {
+  align-items: center;
+  background-image: url(../img/rectangle-2.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 469px;
+  padding: 26px 22px;
+  width: 430px;
+}
+
+.education-login-page .first-time-here {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 21.0px;
+  margin-top: 88px;
+  min-height: 37px;
+  width: 307px;
+}
+
+.education-login-page .create-an-account {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 41.0px;
+  margin-top: 8px;
+  min-height: 40px;
+  width: 245px;
+}
+
+.education-login-page .username-1 {
+  align-self: flex-start;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 51px;
+  margin-top: 8px;
+  min-height: 23px;
+  width: 116px;
+}
+
+.education-login-page .rectangle-6 {
+  background-color: var(--ffffff-3-paints);
+  border-radius: 10px;
+  height: 33px;
+  margin-right: 20.0px;
+  margin-top: 9px;
+  width: 264px;
+}
+
+.education-login-page .password-1 {
+  align-self: flex-start;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 50px;
+  margin-top: 7px;
+  min-height: 16px;
+  white-space: nowrap;
+}
+
+.education-login-page .rectangle-5 {
+  background-color: var(--ffffff-3-paints);
+  border-radius: 10px;
+  height: 33px;
+  margin-right: 22.0px;
+  margin-top: 9px;
+  width: 264px;
+}
+
+.education-login-page .overlap-group3 {
+  align-self: flex-end;
+  height: 45px;
+  margin-top: 61px;
+  position: relative;
+  width: 143px;
+}
+
+.education-login-page .rectangle-8 {
+  background-color: var(--big-stone);
+  border-radius: 30px;
+  height: 45px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 142px;
+}
+
+.education-login-page .create {
+  left: 39px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 10px;
+  white-space: nowrap;
+  width: 104px;
+}
