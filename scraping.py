@@ -2,59 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 
 __urls = [
-    "https://www.reddit.com/r/investing",
-    "https://www.reddit.com/r/stocks",
-    "https://www.reddit.com/r/wallstreetbets",
-    "https://stocktwits.com",
-    "https://www.investorvillage.com",
-    "https://elite.finviz.com",
-    "https://www.valueinvestorsclub.com",
-    "https://www.theinvestorspodcast.com/community",
-    "https://www.morningstar.com/forums",
-    "https://www.city-data.com/forum/investing",
-    "https://twitter.com/ ",
-    "https://www.linkedin.com/ ",
-    "https://www.facebook.com/ ",
-    "https://www.instagram.com/ ",
-    "https://www.tiktok.com/ ",
-    "https://www.bloomberg.com/markets/stocks",
-    "https://www.cnbc.com/finance",
-    "https://www.ft.com",
-    "https://www.wsj.com/news/markets",
-    "https://www.reuters.com/finance",
-    "https://seekingalpha.com",
-    "https://www.marketwatch.com",
-    "https://www.investing.com/news",
-    "https://finance.yahoo.com",
-    "https://www.businessinsider.com/sai",
-    "https://www.zerohedge.com",
-    "https://www.alphaarchitect.com/blog",
-    "https://www.calculatedriskblog.com",
-    "https://www.economist.com/finance-and-economics",
-    "https://www.kitco.com",
-    "https://www.macroaxis.com",
-    "https://aswathdamodaran.blogspot.com",
-    "https://www.thebalance.com/investing-4074004",
-    "https://www.investopedia.com",
-    "https://www.nerdwallet.com/blog/investing",
-    "https://www.tradingview.com",
-    "https://stockcharts.com",
-    "https://www.incrediblecharts.com",
-    "https://www.barchart.com",
-    "https://finviz.com",
-    "https://www.motleyfool.com",
-    "https://www.gurufocus.com",
-    "https://simplywall.st",
-    "https://www.estimize.com",
-    "https://www.tipranks.com",
-    "https://www.sec.gov/edgar/searchedgar/companysearch.html",
-    "https://www.federalreserve.gov",
-    "https://www.euronext.com/en",
-    "https://www.londonstockexchange.com",
-    "https://www.hkex.com.hk",
-]
-
-__urls_updated = [
+    "https://www.google.com/search?q={{TICKER}}",
     "https://www.reddit.com/r/investing/search?q={{TICKER}}&restrict_sr=1",  # Reddit search in subreddit
     "https://www.reddit.com/r/stocks/search?q={{TICKER}}&restrict_sr=1",  # Reddit search in subreddit
     "https://www.reddit.com/r/wallstreetbets/search?q={{TICKER}}&restrict_sr=1",  # Reddit search in subreddit
@@ -109,6 +57,14 @@ __urls_updated = [
 ]
 
 
+def googlesearch_news(keyword: str):
+    newsSearchURL = "https://www.google.com/search?q={{TICKER}}&tbm=nws".replace("{{TICKER}}", keyword)
+    response = requests.get(newsSearchURL)
+    response.raise_for_status()
+    soup = BeautifulSoup(response.content, 'html.parser')
+
+
+
 
 def scrape_for_keyword(url, keyword):
     search_suffix = "/search?q="  # This might need to be customized per site
@@ -134,6 +90,9 @@ def get_content(ticker: str):
     result = {}
     for url in __urls:
         result[url] = scrape_for_keyword(url, ticker)
+        if (len(result[url])) == 0:
+            result[url].clear()
+    return result
 
 
 if __name__ == "__main__":
