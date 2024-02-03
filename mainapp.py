@@ -3,6 +3,8 @@ from flask import Flask, render_template, request, redirect
 import datetime
 import sentimentAnalysis
 import json
+import yfinance as yf
+import asyncio
 
 
 app = Flask(__name__, static_folder='static', static_url_path='/')
@@ -13,11 +15,15 @@ def home():
     return datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
 
 
-@app.route('/sentiment/<text>', methods=['GET'])
-def sentiment(text):
+@app.route('/sentiment', methods=['GET'])
+def sentiment():
     if request.method == 'GET':
-        t = sentimentAnalysis.sentiment_analysis(text)
+        text = request.args.get('text')
+        t = sentimentAnalysis.newsSentimentAPI.get_sentiment_articles(text)
         return str(t)
+
+
+
 
 
 if __name__ == "__main__":
