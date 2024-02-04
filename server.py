@@ -38,7 +38,13 @@ def login_required(route_function):
 
 @app.route("/")
 def home():
-    return render_template("home.html", session=session.get('user'), pretty=json.dumps(session.get('user'), indent=4))
+    return render_template("homepage.html", session=session.get('user'), indent=4)
+
+
+@login_required
+@app.route('/dashboard')
+def dashboard():
+    return render_template('dashboard.html', session=session.get('user'), indent=4)
 
 
 @app.route('/login')
@@ -52,7 +58,7 @@ def login():
 def callback():
     token = oauth.auth0.authorize_access_token()
     session["user"] = token
-    return redirect("/dashboard.html")
+    return redirect("/dashboard")
 
 
 @login_required
@@ -80,10 +86,16 @@ def sentiment():
         return str(t)
 
 
-@login_required
 @app.route('/dashboard')
+@login_required
 def dashboard():
     return render_template('dashboard.html', session=session.get('user'), indent=4)
+
+
+@login_required
+@app.route('/kevin')
+def kevin():
+    return render_template('kevin-advisor.html', session=session.get('user'))
 
 
 if __name__ == "__main__":
